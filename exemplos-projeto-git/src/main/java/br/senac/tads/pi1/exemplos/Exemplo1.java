@@ -16,6 +16,7 @@ public class Exemplo1 {
      */
     public static void main(String[] args) {
         System.out.println("Hello world with Git");
+        System.out.println(" Salve salve");
     }
     
 }
