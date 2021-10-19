@@ -15,8 +15,13 @@ public class Exemplo1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello world with Git");
-        System.out.println(" Salve salve");
+        for (int i = 1; i <= 10; i++) {
+            if (i == 1) {
+                System.out.println("Hello world with Git");
+            }
+            System.out.println("Salve salve " + i);
+        }
+
     }
-    
+
 }
